@@ -8,6 +8,7 @@
 
 body{
     font-family: Syne, sans-serif;
+    border: 10px;
 }
 
 /* heading and logo */
@@ -18,7 +19,24 @@ h1, h2 {
     letter-spacing: 6px;
 }
 
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px;
+
+}
+
+#logo{
+    text-decoration: none;
+}
+
 /* navigation links */
+
+li {
+    margin-left: 20px;
+}
 
 #menu {
     font-size: 120%;
@@ -28,5 +46,10 @@ h1, h2 {
 #menu li {
     float: left;
     list-style-type: none;
-    margin: 20px;
 }
+
+#menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
