@@ -8,5 +8,25 @@
 
 body{
     font-family: Syne, sans-serif;
-    font-weight: 400;
+}
+
+/* heading and logo */
+
+h1, h2 {
+    font-family: Syne, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 120%;
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin: 20px;
 }
