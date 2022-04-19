@@ -9,15 +9,21 @@
 body{
     font-family: Syne, sans-serif;
     border: 10px;
-    color:#282631;
+    color:hsl(251, 13%, 17%);
+}
+
+/*h1, h2 {
+    font-family: Syne, sans-serif;
+    letter-spacing: 3px;
+} */
+
+section > h2{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
 }
 
 /* heading and logo */
-
-h1, h2 {
-    font-family: Syne, sans-serif;
-    letter-spacing: 3px;
-}
 
 header{
     display: flex;
@@ -27,7 +33,6 @@ header{
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    /*background-color: rgb(173,136,132,0.4);*/
 
 }
 
@@ -91,13 +96,16 @@ li {
     padding-left: 20px;
     margin-top: 350px;
     text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 3px;
     
 }
 
 /* Information section */
 
 .moon-meditation-text{
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 200px;
     margin-right: 200px;
     text-align: justify;
@@ -106,26 +114,39 @@ li {
     font-weight: 500;
 }
 
-.moon-meditation-text h2{
-    text-align: center;
-    margin-bottom: 30px;
-}
-
 .moon-meditation-text a{
     text-decoration: none;
-    color: #d3c1bc;
+    color: rgb(109,106,124);
 }
 
 .moon-meditation-text a:hover{
-    background-color:rgb(109,106,124, 0.3);
-    padding: 5px;
-    border-radius: 5%;;
+    background-color: #d3c1bc;
+    padding: 4px;
+    border-radius: 5%;
+    word-wrap: normal;
 }
 
-/* Building a practice */
+/* Building a practice section */
 
+.practice-container{
+    display: flex;
+    margin-top: 40px;
+}
 
-    
+.practice-content{
+    display: flex;
+    border-radius: 5%;
+    width: 250px;
+    height: 200px;
+    margin: 5px;
+    background-color: rgb(132,121,132, 0.4);
+    justify-content: center;
+    align-items: center;
+}
 
+.practice-content-p{
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
 
-
+}
