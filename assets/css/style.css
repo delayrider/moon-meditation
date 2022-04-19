@@ -16,9 +16,7 @@ body{
 
 h1, h2 {
     font-family: Syne, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    color: inherit;
+    letter-spacing: 3px;
 }
 
 header{
@@ -36,21 +34,19 @@ header{
 #logo{
     text-decoration: none;
     color: #d3c1bc;
+    text-transform: uppercase;
+    flex-wrap: nowrap;
 }
 
 /* navigation links */
 
-a:hover{
-    background-color: rgb(154,156,165,0.4);
-    padding: 5px;
-    border-radius: 5%;;
-}
-
 li {
     margin-left: 20px;
+    flex-wrap: nowrap;
 }
 
 #menu {
+    
     font-size: 120%;
     float: right;
 }
@@ -65,20 +61,37 @@ li {
     color: #d3c1bc;
 }
 
+#menu a:hover{
+    background-color:rgb(109,106,124, 0.3);
+    padding: 5px;
+    border-radius: 5%;;
+}
+
 .active{
-    background-color: rgb(154,156,165,0.4);
+    background-color: rgb(109,106,124, 0.3);
     padding: 5px;
     border-radius: 5%;
 }
 
 
-/* Hero-Image */
+/* Hero-Image and description box*/
 
 #hero-image1{
-    height: 600px;
+    height: 500px;
     width: 100%;
     background-image: url("../css/images/moon-clouds.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    
+    }
+
+#description-box{
+    background-color: #d3c1bc;
+    padding-left: 20px;
+    margin-top: 350px;
+    text-transform: uppercase;
+    
 }
+
+
