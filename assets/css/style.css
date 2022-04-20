@@ -131,22 +131,25 @@ li {
 .practice-container{
     display: flex;
     margin-top: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .practice-content{
     display: flex;
     border-radius: 5%;
-    width: 250px;
-    height: 200px;
+    width: 300px;
+    height: 250px;
     margin: 5px;
+    font-weight: 500;
     background-color: rgb(132,121,132, 0.4);
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
 }
 
 .practice-content-p{
     align-items: center;
     font-size: 20px;
     font-weight: 500;
-
 }
