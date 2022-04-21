@@ -17,7 +17,7 @@ body{
     letter-spacing: 3px;
 } */
 
-section > h2{
+h2{
     text-align: center;
     margin-top: 60px;
     font-size: 30px;
@@ -166,3 +166,23 @@ li {
     height: 100px;
     width: 100%;
 }
+
+/* lunar-phases.html dropdown */
+
+
+.dropdown-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+ 
+  }
+
+  .dropdown-content {
+      display: flex;
+
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
