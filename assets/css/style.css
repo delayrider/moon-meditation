@@ -43,13 +43,12 @@ header {
     text-decoration: none;
     color: #d3c1bc;
     text-transform: uppercase;
-    flex-wrap: nowrap;
 }
 
 /* navigation links */
 
 li {
-    margin-left: 20px;
+    margin-left: 15px;
     flex-wrap: nowrap;
 }
 
@@ -99,7 +98,7 @@ li {
 #description-box {
     background-color: rgba(211, 193, 188, 0.5);
     padding-left: 20px;
-    margin-top: 350px;
+    margin-top: 300px;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 25px;
@@ -170,6 +169,11 @@ li {
     background-image: url("../css/images/moon-clouds.jpg");
     height: 100px;
     width: 100%;
+}
+
+#footer-logo{
+    padding-left: 5px;
+
 }
 
 /* Collapsible moon-phases.html */
@@ -379,13 +383,19 @@ li {
     }
 
     .moon-meditation-text {
-        margin: 10px 20px 0 20px;
+        margin: 1px 20px 0 20px;
 
         text-align: justify;
         line-height: 2;
         font-size: 15px;
         font-weight: 500;
+    }    
+
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        height: 150px;
     }
 
-    
+
 }
