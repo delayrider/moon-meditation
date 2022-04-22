@@ -268,6 +268,7 @@ li {
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 100px;
+    
 
 }
 
@@ -283,21 +284,34 @@ li {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
-    margin-bottom:100px;
+    
+    background-color: rgba(211, 193, 188, 0.4) ;
+    
+    margin: 0 300px 100px 300px;
+    padding-bottom: 40px;
+    border-radius: 4px;
 }
 .sign-up-form label{
     font-size: 30px;
     font-weight: bolder;
+    margin: 40px 0 40px 0;
 }
-.sign-up-form input{
+.text-input{
     border: solid hsl(251, 13%, 17%);
     border-radius: 4px;
     width: 400px;
+    height: 40px;
 }
 
-.form-button{
-    width: 50px;
-    height: 100px;
+/* Code copied from Love Running Form Challenge */
 
+#form-button{
+    margin-top: 40px;
+    border-radius: 4px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: rgb(132,121,132, 0.5);
+    color: hsl(251, 13%, 17%);
 }
