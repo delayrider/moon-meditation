@@ -58,7 +58,6 @@ li {
 }
 
 #menu {
-    
     font-size: 120%;
     float: right;
 }
@@ -109,7 +108,7 @@ li {
     
 }
 
-/* Information section */
+/* Information section index.html */
 
 .moon-meditation-text{
     margin-top: 40px;
@@ -133,7 +132,7 @@ li {
     word-wrap: normal;
 }
 
-/* Building a practice section */
+/* Building a practice section moon-phases.html */
 
 .practice-container{
     display: flex;
@@ -174,7 +173,7 @@ li {
     width: 100%;
 }
 
-/* lunar-phases.html collapsible */
+/* Collapsible moon-phases.html */
 
 .wrapper{
     display: flex;
@@ -256,4 +255,25 @@ li {
 .collapsible-text p{
     padding-left: 15px;
     padding-right: 15px;
+}
+
+/* sign-up.html*/
+
+.sign-up-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+
+}
+
+.sign-up-header p{
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+    font-weight: 500;
 }
