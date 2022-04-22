@@ -6,33 +6,29 @@
     border: 0;
 }
 
-body{
+body {
     font-family: Syne, sans-serif;
     border: 10px;
-    color:hsl(251, 13%, 17%);
+    color: hsl(251, 13%, 17%);
 }
 
-/*h1, h2 {
-    font-family: Syne, sans-serif;
-    letter-spacing: 3px;
-} */
-
-h2{
+h2 {
     text-align: center;
     margin-top: 40px;
     font-size: 30px;
     margin-bottom: 40px;
 }
 
-h3{
-    margin-top: 0px;
+h3 {
+    margin-top: 30px;
     text-align: center;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 /* heading and logo */
 
-header{
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -43,7 +39,7 @@ header{
 
 }
 
-#logo{
+#logo {
     text-decoration: none;
     color: #d3c1bc;
     text-transform: uppercase;
@@ -58,6 +54,9 @@ li {
 }
 
 #menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     font-size: 120%;
     float: right;
 }
@@ -67,19 +66,19 @@ li {
     list-style-type: none;
 }
 
-#menu a{
+#menu a {
     text-decoration: none;
     color: #d3c1bc;
 }
 
-#menu a:hover{
-    background-color:rgb(109,106,124, 0.3);
+#menu a:hover {
+    background-color: rgb(109, 106, 124, 0.3);
     padding: 5px;
-    border-radius: 5%;;
+    border-radius: 5%;
 }
 
-.active{
-    background-color: rgb(109,106,124, 0.3);
+.active {
+    background-color: rgb(109, 106, 124, 0.3);
     padding: 5px;
     border-radius: 5%;
 }
@@ -87,30 +86,30 @@ li {
 
 /* Hero-Image and description box*/
 
-#hero-image{
+#hero-image {
     height: 500px;
     width: 100%;
     background-image: url("../css/images/moon-clouds.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    
-    }
 
-#description-box{
-    background-color:rgba(211,193,188,0.5);
+}
+
+#description-box {
+    background-color: rgba(211, 193, 188, 0.5);
     padding-left: 20px;
     margin-top: 350px;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 25px;
     letter-spacing: 3px;
-    
+    position: relative;
 }
 
 /* Information section index.html */
 
-.moon-meditation-text{
+.moon-meditation-text {
     margin-top: 40px;
     margin-left: 200px;
     margin-right: 200px;
@@ -120,12 +119,12 @@ li {
     font-weight: 500;
 }
 
-.moon-meditation-text a{
+.moon-meditation-text a {
     text-decoration: none;
-    color: rgb(109,106,124);
+    color: rgb(109, 106, 124);
 }
 
-.moon-meditation-text a:hover{
+.moon-meditation-text a:hover {
     background-color: #d3c1bc;
     padding: 4px;
     border-radius: 5%;
@@ -134,27 +133,27 @@ li {
 
 /* Building a practice section moon-phases.html */
 
-.practice-container{
+.practice-container {
     display: flex;
     margin-top: 40px;
     justify-content: center;
     align-items: center;
 }
 
-.practice-content{
+.practice-content {
     display: flex;
     border-radius: 5%;
     width: 300px;
     height: 250px;
     margin: 5px;
     font-weight: 500;
-    background-color: rgb(132,121,132, 0.4);
+    background-color: rgb(132, 121, 132, 0.4);
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
 }
 
-.practice-content-p{
+.practice-content-p {
     align-items: center;
     font-size: 20px;
     font-weight: 500;
@@ -162,7 +161,7 @@ li {
 
 /* Footer  */
 
-.footer{
+.footer {
     display: flex;
     margin-top: 100px;
     justify-content: space-evenly;
@@ -175,17 +174,17 @@ li {
 
 /* Collapsible moon-phases.html */
 
-.wrapper{
+.wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 
-    margin-bottom:100px;
+    margin-bottom: 100px;
 }
 
 
-.collapsible{
+.collapsible {
     /*max-width: 600px;*/
     margin-left: 200px;
     margin-right: 200px;
@@ -193,16 +192,16 @@ li {
     font-weight: 400;
 }
 
-.collapsible input{
+.collapsible input {
     display: none;
 }
 
-.collapsible label{
+.collapsible label {
     position: relative;
     font-weight: bolder;
     font-size: 30px;
     background-color: rgba(211, 193, 188, 0.3);
-    color:hsl(251, 13%, 17%);
+    color: hsl(251, 13%, 17%);
     display: block;
     margin-bottom: 10px;
     cursor: pointer;
@@ -212,7 +211,7 @@ li {
     text-align: center;
 }
 
-.collapsible label:after{
+.collapsible label:after {
     content: "〉";
     position: absolute;
     right: 20px;
@@ -222,11 +221,11 @@ li {
     transition: all 0.3 ease;
 }
 
-.collapsible input:checked + label:after{
+.collapsible input:checked+label:after {
     transform: rotate(90deg);
 }
 
-.collapsible-text{
+.collapsible-text {
     max-height: 1px;
     overflow: scroll;
     font-size: 20px;
@@ -239,7 +238,7 @@ li {
     transition: all 0.3 ease;
 }
 
-.collapsible input:checked ~ .collapsible-text{
+.collapsible input:checked~.collapsible-text {
     max-height: 300px;
     padding-bottom: 25px;
     color: hsl(251, 13%, 17%);
@@ -247,56 +246,56 @@ li {
     top: 0;
 }
 
-.collapsible-text h3{
+.collapsible-text h3 {
     margin-bottom: 10px;
     padding: 15px 15px 0;
 }
 
-.collapsible-text p{
+.collapsible-text p {
     padding-left: 15px;
     padding-right: 15px;
 }
 
 /* sign-up.html*/
 
-.sign-up-header{
+.sign-up-header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    
+
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 100px;
-    
-
 }
 
-.sign-up-header p{
+.sign-up-header p {
     text-align: center;
     line-height: 2;
     font-size: 20px;
     font-weight: 500;
 }
 
-.sign-up-form{
+.sign-up-form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    
-    background-color: rgba(211, 193, 188, 0.4) ;
-    
-    margin: 0 300px 100px 300px;
+
+    background-color: rgba(211, 193, 188, 0.4);
+
+    margin: -40px 300px 100px 300px;
     padding-bottom: 40px;
     border-radius: 4px;
 }
-.sign-up-form label{
+
+.sign-up-form label {
     font-size: 30px;
     font-weight: bolder;
     margin: 40px 0 40px 0;
 }
-.text-input{
+
+.text-input {
     border: solid hsl(251, 13%, 17%);
     border-radius: 4px;
     width: 400px;
@@ -305,13 +304,79 @@ li {
 
 /* Code copied from Love Running Form Challenge */
 
-#form-button{
+#form-button {
     margin-top: 40px;
     border-radius: 4px;
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 30px;
     font-weight: bolder;
-    background-color: rgb(132,121,132, 0.5);
+    background-color: rgb(132, 121, 132, 0.5);
     color: hsl(251, 13%, 17%);
+}
+
+/* Go Deeper into Lunar Meditation */
+
+.external-links-container {
+    margin: 50px 200px 0 200px;
+}
+
+.external-links-content{
+    text-align: justify;
+}
+
+.external-links-content h3 {
+    text-align: left;
+}
+
+.external-links-content a {
+    text-decoration: none;
+    color: hsl(251, 13%, 17%);
+
+}
+
+.external-links-content h3:hover {
+    background-color: rgba(211, 193, 188, 0.5);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px;
+    
+}
+
+.external-links-content {
+    text-align: left;
+}
+
+/* Media queries */
+
+/* For larger to medium size screen */
+
+@media screen and (max-width: 870px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 5px;
+    }
+
+    #menu{
+        padding-left: 0;
+        border: 0;
+        line-height: 25px;
+        
+    }
+
+    #menu a:hover {
+        background-color: rgb(109, 106, 124, 0.5);
+    }
+
+    li{
+        margin-left: 0px;
+    }
+
+    #description-box{
+        margin-top: 200px;
+    }
+
+    
 }
