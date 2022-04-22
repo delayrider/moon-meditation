@@ -406,5 +406,15 @@ li {
         padding-top: 40px;
     }
 
+    .practice-container {
+        display: flex;
+        margin-top: 40px;
+        flex-direction: column;
+
+    }
+
+    .external-links-container {
+        margin: 1px 20px 0 20px;
+    }
 
 }
