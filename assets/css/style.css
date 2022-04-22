@@ -268,9 +268,9 @@ li {
     align-items: center;
     justify-content: space-between;
 
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 100px;
+    margin: 0 200px 100px 200px;
+
+
 }
 
 .sign-up-header p {
@@ -415,6 +415,22 @@ li {
 
     .external-links-container {
         margin: 1px 20px 0 20px;
+    }
+
+    .sign-up-header{
+        margin: 1px 20px 0 20px;
+
+    }
+
+    .sign-up-form{
+        margin: 1px 20px 0 20px;
+    }
+
+    .text-input {
+        border: solid hsl(251, 13%, 17%);
+        border-radius: 4px;
+        width: 200px;
+        height: 40px;
     }
 
 }
