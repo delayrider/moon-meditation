@@ -378,5 +378,14 @@ li {
         margin-top: 200px;
     }
 
+    .moon-meditation-text {
+        margin: 10px 20px 0 20px;
+
+        text-align: justify;
+        line-height: 2;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
     
 }
