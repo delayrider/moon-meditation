@@ -202,7 +202,7 @@ li {
 .collapsible label {
     position: relative;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 20px;
     background-color: rgba(211, 193, 188, 0.3);
     color: hsl(251, 13%, 17%);
     display: block;
@@ -266,10 +266,7 @@ li {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
     margin: 0 200px 100px 200px;
-
-
 }
 
 .sign-up-header p {
