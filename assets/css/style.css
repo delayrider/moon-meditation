@@ -294,7 +294,7 @@ li {
     width: 25px;
     border-radius: 50%;
     background-color: rgba(211, 193, 188, 0.3);
-    border:solid rgb(51,48,61, 0.8);
+    border:solid rgb(51,48,61, 0.7);
     margin-right: 10px;
 }
 
@@ -303,7 +303,7 @@ li {
     width: 25px;
     border-radius: 50%;
     background-color: transparent;
-    box-shadow: 6px 0px rgba(51,48,61, 0.8);
+    box-shadow: 6px 0px rgba(51,48,61, 0.7);
     transform: rotate(3deg);
     margin-right: 10px;
      
@@ -315,7 +315,7 @@ li {
     top: 50%;
     left: 50%;
     transform: rotate(90deg);
-    background-color: rgba(51,48,61, 0.8);
+    background-color: rgba(51,48,61, 0.7);
     border-radius: 150px 150px 0 0;
     margin-top: 5px;
     margin-right: 10px;
@@ -335,7 +335,7 @@ li {
     height: 25px;
     width: 25px;
     border-radius: 50%;
-    background-color: rgb(51,48,61, 0.8);
+    background-color: rgb(51,48,61, 0.7);
     box-shadow: 10px #d3c1bc;
     margin-right: 20px;
 }
@@ -344,7 +344,7 @@ li {
     height: 25px;
     width: 25px;
     border-radius: 50%;
-    background-color: rgba(51,48,61, 0.8);
+    background-color: rgba(51,48,61, 0.7);
     box-shadow: inset 4px 0px rgba(211, 193, 188, 0.9);
     transform: rotate(183deg);
     margin-right: 10px;
@@ -356,7 +356,7 @@ li {
     top: 50%;
     left: 50%;
     transform: rotate(-90deg);
-    background-color: rgba(51,48,61, 0.8);
+    background-color: rgba(51,48,61, 0.7);
     border-radius: 150px 150px 0 0;
     margin-top: 5px;
     margin-right: 10px;
@@ -558,5 +558,19 @@ li {
 
 /* For small to x-small size screen */
 
+@media screen and (max-width: 280px) {
+    #description-box{
+        margin-top: 150px;
+    }
+
+    .build-practice-h2{
+        margin-top: 20px;
+    }
+
+    .practice-content {
+        width: 270px;
+        
 
 
+    }
+}
