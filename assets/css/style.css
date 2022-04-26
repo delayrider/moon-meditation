@@ -208,7 +208,7 @@ li {
     display: block;
     margin-bottom: 10px;
     cursor: pointer;
-    padding: 15px 0;
+    padding: 5px 15px 0;
     border-radius: 4px;
     z-index: 1;
     text-align: center;
@@ -236,9 +236,10 @@ li {
     border-radius: 4px;
     line-height: 2;
     position: relative;
-    top: -50%;
+    top: -54%;
     opacity: 0.5;
     transition: all 0.3 ease;
+    margin-bottom: 10px;
 }
 
 .collapsible input:checked~.collapsible-text {
