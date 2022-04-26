@@ -173,7 +173,12 @@ li {
 }
 
 .footer p{
+<<<<<<< HEAD
     color: #d3c1bc;}
+=======
+    color: #d3c1bc;
+}
+>>>>>>> 9fec5653495a8194d51c0840c5e2f581f1dc411e
 
 /* Collapsible moon-phases.html */
 
