@@ -212,7 +212,7 @@ li {
     position: relative;
     font-weight: bolder;
     font-size: 20px;
-    background-color: rgba(211, 193, 188, 0.4);
+    background-color: rgba(211, 193, 188, 0.9);
     color: hsl(251, 13%, 17%);
     display: block;
     margin-bottom: 10px;
@@ -221,6 +221,12 @@ li {
     border-radius: 4px;
     z-index: 1;
     text-align: center;
+}
+
+.collapsible-label{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .collapsible label:after {
@@ -232,12 +238,6 @@ li {
     width: 18px;
     height: 18px;
     transition: all 0.3 ease;
-}
-
-.collapsible-label{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
 }
 
 .collapsible input:checked+label:after {
@@ -277,6 +277,7 @@ li {
 }
 
 /* Moon Phase Emojis */
+
 
 #dark-moon{
     height: 25px;
@@ -569,7 +570,7 @@ li {
 
     .practice-content {
         width: 270px;
-        
+
 
 
     }
