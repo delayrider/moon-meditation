@@ -290,24 +290,22 @@ li {
 .sign-up-form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 
-    background-color: rgba(211, 193, 188, 0.4);
+    background-image: linear-gradient(to bottom right,rgba(148,151,166,0.8), rgba(173,136,131,0.8));
 
-    margin: -40px 300px 100px 300px;
-    padding-bottom: 40px;
+    margin: -40px 200px 100px 200px;
+    padding: 40px 100px 40px 20px;
     border-radius: 4px;
 }
 
 .sign-up-form label {
-    font-size: 30px;
-    font-weight: bolder;
-    margin: 40px 0 40px 0;
+    font-size: 20px;
+    margin: 40px 0 20px 0;
 }
 
 .text-input {
-    border: solid hsl(251, 13%, 17%);
     border-radius: 4px;
     width: 400px;
     height: 40px;
@@ -320,9 +318,10 @@ li {
     border-radius: 4px;
     padding: 15px 32px 15px 32px;
     text-align: center;
-    font-size: 30px;
-    font-weight: bolder;
-    background-color: rgb(132, 121, 132, 0.5);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Syne, sans-serif;
+    background-image: linear-gradient(to bottom right, rgba(149,151,164,0.8), rgba(95,87,107,0.8));
     color: hsl(251, 13%, 17%);
 }
 
