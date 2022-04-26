@@ -173,17 +173,17 @@ li {
 }
 
 .footer p{
-<<<<<<< HEAD
-    color: #d3c1bc;}
-=======
     color: #d3c1bc;
 }
->>>>>>> 9fec5653495a8194d51c0840c5e2f581f1dc411e
 
 /* Collapsible moon-phases.html */
 
 .lunar-phase-p{
     margin: 0 200px 40px 200px;
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .wrapper {
@@ -326,7 +326,7 @@ li {
     color: hsl(251, 13%, 17%);
 }
 
-/* Go Deeper into Lunar Meditation */
+/* More Info */
 
 .external-links-container {
     margin: 50px 200px 0 200px;
@@ -334,6 +334,10 @@ li {
 
 .external-links-content{
     text-align: justify;
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .external-links-content h3 {
@@ -388,7 +392,7 @@ li {
     }
 
     #description-box{
-        margin-top: 150px;
+        margin-top: 200px;
     }
 
     .moon-meditation-text {
