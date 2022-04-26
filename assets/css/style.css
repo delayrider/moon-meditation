@@ -177,6 +177,10 @@ li {
 
 /* Collapsible moon-phases.html */
 
+.lunar-phase-p{
+    margin: 0 200px 40px 200px;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -208,7 +212,7 @@ li {
     display: block;
     margin-bottom: 10px;
     cursor: pointer;
-    padding: 5px 15px 0;
+    padding: 15px 0;
     border-radius: 4px;
     z-index: 1;
     text-align: center;
@@ -236,10 +240,10 @@ li {
     border-radius: 4px;
     line-height: 2;
     position: relative;
-    top: -54%;
+    top: -40%;
     opacity: 0.5;
     transition: all 0.3 ease;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .collapsible input:checked~.collapsible-text {
