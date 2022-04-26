@@ -388,7 +388,7 @@ li {
     }
 
     #description-box{
-        margin-top: 200px;
+        margin-top: 150px;
     }
 
     .moon-meditation-text {
@@ -457,3 +457,8 @@ li {
     }
 
 }
+
+/* For small to x-small size screen */
+
+
+
