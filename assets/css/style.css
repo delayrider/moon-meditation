@@ -234,6 +234,12 @@ li {
     transition: all 0.3 ease;
 }
 
+.collapsible-label{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
 .collapsible input:checked+label:after {
     transform: rotate(90deg);
 }
@@ -269,6 +275,89 @@ li {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+/* Moon Phase Emojis */
+
+#dark-moon{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #d3c1bc;
+    border:solid rgb(51,48,61, 0.8);
+    margin-right: 10px;
+}
+
+#new-moon{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: rgb(51,48,61, 0.8);
+    margin-right: 20px;
+}
+
+#waxing-cresent-moon{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 6px 0px rgba(51,48,61, 0.8);
+    transform: rotate(-180deg);
+    margin-right: 10px;
+     
+}
+
+#waxing-first-quarter-moon{
+    height: 15px;
+    width: 25px;
+    top: 50%;
+    left: 50%;
+    transform: rotate(-90deg);
+    background-color: rgba(51,48,61, 0.8);
+    border-radius: 150px 150px 0 0;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+#waxing-gibbous-moon{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: rgba(51,48,61, 0.8);
+    box-shadow: 0px 6px 1px transparent;
+    margin-right: 20px;
+}
+
+#full-moon{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: rgb(51,48,61, 0.8);
+    box-shadow: 10px #d3c1bc;
+    margin-right: 20px;
+}
+
+#wanning-gibbous-moon{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: rgb(51,48,61, 0.8);
+    margin-right: 10px;
+}
+
+#wanning-last-quarter-moon{
+    height: 15px;
+    width: 25px;
+    top: 50%;
+    left: 50%;
+    transform: rotate(90deg);
+    background-color: rgba(51,48,61, 0.8);
+    border-radius: 150px 150px 0 0;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+
+
 
 /* sign-up.html*/
 
