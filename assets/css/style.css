@@ -402,6 +402,10 @@ li {
         height: 150px;
     }
 
+    .lunar-phase-p{
+        margin: -20px 20px 10px 20px;
+    }
+
     .collapsible{
         margin: 1px 20px 0 20px;
     }
@@ -411,6 +415,15 @@ li {
         padding-top: 40px;
     }
 
+    .collapsible label:after {
+        top: 5px;
+        right: 10px;
+        bottom: 10px;
+    }
+    
+    .build-practice-h2{
+        margin-top: -20px;
+    }
     .practice-container {
         display: flex;
         margin-top: 40px;
