@@ -624,6 +624,10 @@ li {
     #wanning-last-quarter-moon{
         display: none;
     }
+
+    .sign-up-form{
+        margin: 0 20px 0 20px;
+    }
     
     .footer p{
         font-size: 10px;
