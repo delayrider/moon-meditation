@@ -426,6 +426,10 @@ li {
 
 /* More Info */
 
+h4{
+    text-decoration: underline;
+}
+
 .external-links-container {
     margin: 50px 200px 0 200px;
 }
@@ -575,11 +579,17 @@ li {
     }
 
     .build-practice-h2{
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
     .practice-content {
         width: 270px;
+    }
+
+    .collapsible-label{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
     
     #dark-moon{
