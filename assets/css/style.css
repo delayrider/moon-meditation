@@ -521,7 +521,7 @@ li {
     }
 
     .collapsible label{
-        font-size: 20px;
+        font-size: 15px;
         padding-top: 40px;
     }
 
@@ -561,6 +561,10 @@ li {
         height: 40px;
     }
 
+    #wanning-last-quarter-moon{
+        margin-right: 5px;
+    }
+
 }
 
 /* For small to x-small size screen */
@@ -576,8 +580,44 @@ li {
 
     .practice-content {
         width: 270px;
-
-
-
     }
+    
+    #dark-moon{
+        display: none;
+    }
+    
+    #new-moon{
+        display: none;
+    }
+    
+    #waxing-cresent-moon{
+        display: none;
+    }
+    
+    #waxing-first-quarter-moon{
+        display: none;
+    }
+    
+    #waxing-gibbous-moon{
+        display: none;
+    }
+    
+    #full-moon{
+        display: none;
+    }
+    
+    #wanning-gibbous-moon{
+        display: none;
+    }
+    
+    #wanning-last-quarter-moon{
+        display: none;
+    }
+    
+    .footer p{
+        font-size: 10px;
+        
+    }
+
 }
+
