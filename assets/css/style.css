@@ -426,10 +426,6 @@ li {
 
 /* More Info */
 
-h4{
-    text-decoration: underline;
-}
-
 .external-links-container {
     margin: 50px 200px 0 200px;
 }
@@ -452,16 +448,21 @@ h4{
 
 }
 
-.external-links-content h4:hover {
+.external-links-content a h3:hover {
     background-color: rgba(211, 193, 188, 0.5);
     background-repeat: no-repeat;
     background-size: contain;
+    text-decoration: underline;
     padding: 10px;
     
 }
 
 .external-links-content {
     text-align: left;
+}
+
+.meditation-video{
+    margin: 40px 0 20px 160px;
 }
 
 /* Media queries */
