@@ -240,7 +240,7 @@ li {
     padding: 15px;
     width: 18px;
     height: 18px;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
 }
 
 .collapsible input:checked+label:after {
@@ -257,7 +257,7 @@ li {
     position: relative;
     top: -40%;
     opacity: 0.5;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
     margin-bottom: 15px;
 }
 
@@ -342,7 +342,6 @@ li {
     border-radius: 50%;
     border: solid rgba(211, 193, 188, 0.8);
     background-color: rgb(51,48,61, 0.7);
-    box-shadow: 10px #d3c1bc;
     margin-right: 20px;
 }
 
@@ -473,7 +472,7 @@ li {
     header{
         display: flex;
         flex-direction: column;
-        justify-content: flex-startq;
+        justify-content: flex-start;
         padding-left: 5px;
     }
 
