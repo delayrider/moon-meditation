@@ -14,7 +14,7 @@ Welcome to [Moon Meditation](https://delayrider.github.io/moon-meditation.github
    - Users want to start building a meditation practice
    - Users want to find out more about the topic through external links
 
-## Design
+# Design
 - Hero image
   - The hero image was chosen on [Stockvault](https://www.stockvault.net/)
   - The choice of the hero image was made concidering the content of the website. Purple being associated with mysticism. 
@@ -23,7 +23,7 @@ Welcome to [Moon Meditation](https://delayrider.github.io/moon-meditation.github
   - The color palet for this website was chosen by running the hero image through [Color Picker](https://imagecolorpicker.com/en)
 
 
-## Current Features
+# Current Features
  - Nav bar
    - The navigation bar is the same throughout the all four pages. 
    - The navigation bar elements are styled to highlight when the user hovers over them. This gives the user feedback as to where he can click. 
@@ -67,7 +67,7 @@ Welcome to [Moon Meditation](https://delayrider.github.io/moon-meditation.github
 
 ![Sign up form screenshot](/docs/images/sign-up-form.png)
 
-## Future Features
+# Future Features
 
 - Home page text
   - In a future release the main text on the home page will be more alive. Imagery can be used to give the paragraphs life. 
@@ -98,7 +98,72 @@ Welcome to [Moon Meditation](https://delayrider.github.io/moon-meditation.github
 
 # Testing
 
+
+
 - W3C Validator
+  - All four HTML pages came back with no errors
+- Jigsaw Validator
+  - CSS came back with no errors
+- Lighthouse score for mobile
+  - The original score for performance was 89 because the size of the touch navigation element was not big enough. The score was brough up by making these bigger.
+
+![Lighthouse score mobile](/docs/images/lighthouse-mobile.png) 
+
+- Lighthouse score for desktop
+  - The original score for SEO was 79. The score was brought up by adding a description in the meta tags.
+
+![Lighthouse score desktop](/docs/images/lighthouse-desktop.png) 
+
+# Bugs
+
+- Gibbous moon phase emoji : current
+  - In the gibbous moon phase emojis there seems to be the border of the div still showing after addin the inset box-shadow. This will be resolves in a future release
+  - This bug does not hinder the flow and performance of the site and is only an esthetical problem.
+
+![Gibbous moon emoji bug](/docs/images/gibbous-moon-emoji-bug.png)
+
+- Collapsible text bug : fixed
+  - In the process of developing the collabsible text feature a bug appeared where not matter what collapsible label was clicked only the first text would unfold.
+  - This was solved by giving each label unique ```id``` and ```for``` attributes.
+
+- Navigation bar bug : fixxed
+  - In the process of developin the navigation menu a bug appeared when trying to float the list elements to the top left of the screen. The ```li``` elements lost their original order.
+  - This was fixed by using ```#menu{ float: right; }``` and ```#menu li { float: left}```
+
+# Deployment 
+- This project was developped using Gitpod, then commited to git and pushed to GitHub
+
+The site was deployed to GitHub Pages from the repository by taking the following steps
+
+  1. From GitHub navigate to the main page of the repository
+  2. Select the "settings" cog underneath the repository name
+  3. In the sidebad, under "code and automation" select "pages"
+  4. Once in GitHub Pages select the publishing source from the dropdown menu
+  5. Then click save
+  6. The deployed site will update automatically with ever push made from Gitpod to GitHub
+
+To run the code locally the following steps need to be taken
+  1. From GitHub navigate to the main page of the repository
+  2. Select the "code" button above the file list
+  3. Choose HTTPS, SSH or GitHub CLI and click the clipboard incon to copy
+  4. In your editor open the terminal
+  5. Change the current working directory to the location where you want the cloned directory
+  6. Type ```git clone``` and paste the URL you just copied
+  7. Press "enter" to create you local clone
+
+
+
+# Credits
+
+- Tutorials and posts
+  - [This](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) absolute gem of a blog post by [Chris Coyier](https://css-tricks.com/author/chriscoyier/) was refered to through the entire project for all questions I had regarding the ```flex-layout```
+  - The collapsible feature was only possible to implement thanks to [this](https://www.youtube.com/watch?v=RvpYnUZRquw) tutorial by [Enhance Coding](https://www.youtube.com/channel/UC7Taam_8Qri6Rr_zo3RmKJw)
+  - The moon emojis were implemented with the help of [this](https://www.youtube.com/watch?v=kG_x15yhtBQ) tutorial by [SoySudhanshu Codes](https://www.youtube.com/channel/UCX-YPTfZcKPZP7_XAA5zEsg) as well as [this](https://www.codegrepper.com/code-examples/css/how+to+make+semi+half+circle+css) blog post by [JérômeW](https://www.codegrepper.com/profile/jrmew)
+  - The Love Running Project from [Code Institute](https://codeinstitute.net/global/) was used to help implement the sing-up.html submit button.
+  - The Love Running Project from [Code Institute](https://codeinstitute.net/global/) was also used to help implement the navigation bar. 
+
+
+
 
 
 

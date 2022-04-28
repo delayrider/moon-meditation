@@ -26,7 +26,7 @@ h3 {
     margin-bottom: 20px;
 }
 
-/* heading and logo */
+/* Heading and logo */
 
 header {
     display: flex;
@@ -45,7 +45,7 @@ header {
     text-transform: uppercase;
 }
 
-/* navigation links */
+/* Navigation links */
 
 li {
     margin-left: 15px;
@@ -88,7 +88,7 @@ li {
 #hero-image {
     height: 500px;
     width: 100%;
-    background-image: url("../css/images/moon-clouds.webp");
+    background-image: url("../images/moon-clouds.webp");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -200,7 +200,6 @@ li {
 
 
 .collapsible {
-    /*max-width: 600px;*/
     margin-left: 200px;
     margin-right: 200px;
     overflow: hidden;
@@ -280,7 +279,6 @@ li {
 }
 
 /* Moon Phase Emojis */
-
 
 #dark-moon{
     height: 25px;
@@ -368,7 +366,7 @@ li {
     margin-right: 10px;
 }
 
-/* sign-up.html*/
+/* Sign-up.html*/
 
 .sign-up-header {
     display: flex;
@@ -409,7 +407,7 @@ li {
     height: 40px;
 }
 
-/* Code copied from Love Running Form Challenge */
+/* Code copied from Love Running form challenge */
 
 #form-button {
     margin-top: 40px;
@@ -568,7 +566,6 @@ li {
     #wanning-last-quarter-moon{
         margin-right: 5px;
     }
-
 }
 
 /* For small to x-small size screen */
@@ -629,9 +626,7 @@ li {
     }
     
     .footer p{
-        font-size: 10px;
-        
+        font-size: 10px;  
     }
-
 }
 
