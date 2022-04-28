@@ -24,7 +24,7 @@ Welcome to [Moon Meditation](https://delayrider.github.io/moon-meditation.github
 
 
 # Current Features
- - Nav bar
+ - Navigation bar
    - The navigation bar is the same throughout the all four pages. 
    - The navigation bar elements are styled to highlight when the user hovers over them. This gives the user feedback as to where he can click. 
    - The active page is highlighted to give user feedback as to what page is currently being viewed.
@@ -32,7 +32,7 @@ Welcome to [Moon Meditation](https://delayrider.github.io/moon-meditation.github
 
 ![Navigation bar screenshot](/docs/images/nav-bar.png)
 
-- Hero image
+- Hero image and overlay
   - All four pages have the same hero image.
   - The image was chosen to reflect a calm and mystical feeling. The colour purple being associated with mistycism made the image a good fit for the style the page is going for. The clouds surrounding the moon give a nice "this to shall pass" vibe to the page which is very in tune with the main goal of mediation: letting go. 
   - The overlay on the hero image give site specific descriptions to what the page is about.
@@ -60,6 +60,12 @@ Welcome to [Moon Meditation](https://delayrider.github.io/moon-meditation.github
   - To give the user feedback on where to click to open the external links, the higlight on hover feature was added.
 
 ![External links screenshot](/docs/images/external-link.png)
+
+- Guided meditation video 
+  - The video was embedded from [youtube](https://www.youtube.com/) to give the user an idea to what lunar meditation is about.
+  - The video was give the ```controls``` attribute for it not to play when page is loaded
+
+![Guided meditation video](/docs/images/guided-meditation-video.png)
 
 - Sign up form
   - Users can sign-up to a monthly news letter to recieve a monthly news letter.
@@ -98,7 +104,7 @@ Welcome to [Moon Meditation](https://delayrider.github.io/moon-meditation.github
 
 # Testing
 
-
+## Validator testing
 
 - W3C Validator
   - All four HTML pages came back with no errors
@@ -113,6 +119,61 @@ Welcome to [Moon Meditation](https://delayrider.github.io/moon-meditation.github
   - The original score for SEO was 79. The score was brought up by adding a description in the meta tags.
 
 ![Lighthouse score desktop](/docs/images/lighthouse-desktop.png) 
+
+- [A11y](https://color.a11y.com/Contrast/) was used to test the color contrast for accessibility.
+
+![A11y screenshot](/docs/images/A11y-validator.png)
+
+## Responsive Testing
+
+The DevTools were used during the entire developpement to test responsiveness of the website. All the screen sizes available in DevTools were tested.
+
+## Manual Testing
+
+Manual testing was carried out on the website for all features
+
+- Naivigation bar and logo
+  - All internal link led to their respective pages
+  - The logo leads user back to the home page
+  - The navigation links highlight when hovered over
+  - The page currently being visited is highlighed in the navigation bar
+  - The navigation bar and logo resize appropriately to the max-width of the display in use
+
+- Hero image and overlay
+  - The hero image is large enough not to appear pixelated on large screens
+  - The hero image was converted from .png to .webp to make the loading time shorted
+  - The overlay shows on each page
+  - The overlay gives clear information to user about the content of page
+  - The overly is resposive to all screen sizes
+
+- Build a practice
+  - The contrast between background text/icons is good
+  - The icons load from the Font Awesome script with no issues
+  - The layout of the blocks is responsive on all screen sizes
+
+- Lunar phase collapible description
+  - All eight collabisble texts can be shown by clicking on their respedtive labels
+  - The feature works on all screen sizes
+  - Styling is consisten for all screen sizes
+
+- Lunar phase emojis
+  - The emojis illustrate the lunar phases accurately
+  - The user unserstands the lunar phase as it can be seen in the sky
+  - The emojies are as consistent as possible in style 
+  - The emjois do not hinder the collapsible text feature
+  - The emjois are created within ```<span>```element to maintain valid HTML
+  - The emojis are removed for xs screen sizes as they disrupt the collapsible text feature
+
+- External link highlight when hovered
+ - The external link highlight when hovered on with a mouse or when tapped with a finger
+ - The external link leads to the correct website
+ - The external link opens in a new tab
+
+- Guided meditation video
+  - The video has controls and is not played automatically when page is loaded
+
+
+
 
 # Bugs
 
