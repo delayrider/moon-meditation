@@ -194,8 +194,6 @@ li {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
-    margin-bottom: 100px;
 }
 
 
@@ -274,10 +272,18 @@ li {
 }
 
 .collapsible-text p {
+    text-align: center;
     padding-left: 15px;
     padding-right: 15px;
 }
 
+.collapsible-text h4{
+    text-align: center;
+}
+
+.collapsible-text-tips{
+    background-color: rgb(132, 121, 132, 0.3);
+}
 /* Moon Phase Emojis */
 
 #dark-moon{
