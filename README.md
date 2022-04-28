@@ -91,15 +91,16 @@ Welcome to [Moon Meditation](https://delayrider.github.io/moon-meditation.github
   - CSS
 
 - Frameworks and programs
-  - [Gitpod](https://gitpod.io/workspaces) for editing.
-  - [Github](https://github.com/) for storing and deployment.
-  - [Google Fonts¨](https://fonts.google.com/) for sourcing the fonts.
-  - [Font Awesome](https://fontawesome.com/search?q=moon&s=solid%2Cbrands) for incons.
-  - [ColorPicker](https://imagecolorpicker.com/en) to create the palette of the website.
+  - [Gitpod](https://gitpod.io/workspaces) for editing
+  - [Github](https://github.com/) for storing and deployment
+  - [Google Fonts¨](https://fonts.google.com/) for sourcing the fonts
+  - [Font Awesome](https://fontawesome.com/search?q=moon&s=solid%2Cbrands) for incons
+  - [ColorPicker](https://imagecolorpicker.com/en) to create the palette of the website
+  - The Youtube embed tool was used to add the ```<iframe>``` to the more info section
   - [DevTools](https://developer.chrome.com/docs/devtools/) for testing while developping the site
-  - [DevTools Lighthouse](https://developers.google.com/web/tools/lighthouse) to check performance, accessiblity, best practice and SEO ratings.
-  - [W3C Validator](https://www.stockvault.net/) to test HTML.
-  - [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) to test CSS.
+  - [DevTools Lighthouse](https://developers.google.com/web/tools/lighthouse) to check performance, accessiblity, best practice and SEO ratings
+  - [W3C Validator](https://www.stockvault.net/) to test HTML
+  - [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) to test CSS
   - [Ezgif](https://ezgif.com/jpg-to-webp) to compress .png hero image to .wepb
 
 # Testing
@@ -165,15 +166,20 @@ Manual testing was carried out on the website for all features
   - The emojis are removed for xs screen sizes as they disrupt the collapsible text feature
 
 - External link highlight when hovered
- - The external link highlight when hovered on with a mouse or when tapped with a finger
- - The external link leads to the correct website
- - The external link opens in a new tab
+   - The external link highlight when hovered on with a mouse or when tapped with a finger
+   - The external link leads to the correct website
+   - The external link opens in a new tab
 
 - Guided meditation video
   - The video has controls and is not played automatically when page is loaded
 
+- Sign-Up form
+  - The sign up form cannot be submited without the correct inputs
+  - The sign up form is responsive on all screen sizes
 
-
+- Footer
+  - The footer is identical on all .html pages
+  - The footer is responsive on all screen sizes
 
 # Bugs
 
@@ -213,7 +219,6 @@ To run the code locally the following steps need to be taken
   7. Press "enter" to create you local clone
 
 
-
 # Credits
 
 - Tutorials and posts
@@ -222,6 +227,20 @@ To run the code locally the following steps need to be taken
   - The moon emojis were implemented with the help of [this](https://www.youtube.com/watch?v=kG_x15yhtBQ) tutorial by [SoySudhanshu Codes](https://www.youtube.com/channel/UCX-YPTfZcKPZP7_XAA5zEsg) as well as [this](https://www.codegrepper.com/code-examples/css/how+to+make+semi+half+circle+css) blog post by [JérômeW](https://www.codegrepper.com/profile/jrmew)
   - The Love Running Project from [Code Institute](https://codeinstitute.net/global/) was used to help implement the sing-up.html submit button.
   - The Love Running Project from [Code Institute](https://codeinstitute.net/global/) was also used to help implement the navigation bar. 
+- Content
+  - The content of the page was inspired by [Kirsty Ghallager's](https://www.kirstygallagher.com/site/about) bestselling book [Lunar Living](https://www.kirstygallagher.com/lunarlivingbook)
+- Media
+  - The hero image was found on [StockVault](https://www.stockvault.net/) and taken by [Michiel Grootendorst](https://www.stockvault.net/user/profile/966)
+  - The video used in the More Info page was found on [Youtube](https://www.youtube.com/) and made by the [Great Meditation](https://www.youtube.com/channel/UCN4vyryy6O4GlIXcXTIuZQQ) channel
+
+# Special thanks
+
+Special thanks to [StackOverflow](https://stackoverflow.com/) and all it's users for providing me with answers through the development process. Special thanks to the entire [Code Institute](https://codeinstitute.net/global/) team for making this possible. And a warm thanks to the amazing Slack community for your guidance and support.
+
+# Final note for assessor
+
+The initial planning of this project was made on paper en then transcribed to the README.md file.
+
 
 
 
